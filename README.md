@@ -12,3 +12,7 @@ https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_27/cdts/appTop/appto
 
 You may view a live demo of the site at the following url:
 https://tc-rmmr.azurewebsites.net/
+
+## Tech Specs
+
+Angular: v6.2.4
