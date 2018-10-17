@@ -5,7 +5,7 @@ It provides valuable insight into which rooms to avoid and which ones you defini
 
 ## CDTS & WET Integration
 
-The web app integrates the latest Canada.ca CDTS template for intranet sites:
+The web app integrates the latest Canada.ca CDTS template:
 https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_27/cdts/appTop/apptop_all-en.shtml
 
 It also makes use of the Web Experience Toolkit (WET) and plugins:
