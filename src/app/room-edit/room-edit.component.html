@@ -1,0 +1,23 @@
+<div>
+    <a href="javascript:void(0)" (click)="actionBack();">Back</a>
+  </div>
+  <div class="text-center">
+    <h1>
+      Room Edit
+    </h1>
+  </div>
+  <div>
+    <div>
+        <label>Id:
+          <input [(ngModel)]="room.code" placeholder="number"/>
+        </label>
+    </div>
+    <div>
+        <label>Name:
+          <input [(ngModel)]="room.name"/>
+        </label>
+    </div>
+    <button (click)="actionCancel();">Cancel</button>
+    <button (click)="actionSave();">Save</button>
+  </div>
+

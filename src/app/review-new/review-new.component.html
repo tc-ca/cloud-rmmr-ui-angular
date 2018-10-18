@@ -1,0 +1,37 @@
+<div>
+  <a href="javascript:void(0)" (click)="actionBack();">Back</a>
+</div>
+<div class="text-center">
+  <h1>
+    New Review
+  </h1>
+</div>
+<div>
+  <div>
+      <label>Id:
+        <input [(ngModel)]="review.id" placeholder="number"/>
+      </label>
+  </div>
+  <div>
+      <label>Room Code:
+        <input [(ngModel)]="review.meetingRoomCode" placeholder="number"/>
+      </label>
+  </div>
+  <div>
+    <label>Rating:
+      <input [(ngModel)]="review.rating" placeholder="1-5"/>
+    </label>
+  </div>
+  <div>
+    <label>Comment:
+      <input [(ngModel)]="review.comment" placeholder="text"/>
+    </label>
+  </div>
+  <div>
+    <label>Status:
+      <input [(ngModel)]="review.status" placeholder="0: inactive or 1: active"/>
+    </label>
+  </div>
+  <button (click)="actionCancel();">Cancel</button>
+  <button (click)="actionSave();">Save</button>
+</div>

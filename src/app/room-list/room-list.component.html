@@ -1,21 +1,23 @@
 <div>
   <a routerLink="/home">Home</a>
-  <a routerLink="/rooms" style="margin-left: 20px;">Rooms</a>
+  <a routerLink="/reviews" style="margin-left: 20px;">Reviews</a>
 </div>
 <div class="text-center">
   <h1>
-    List of Reviews
+    List of Rooms
   </h1>
 </div>
 <div class="text-right">
-  <a routerLink="/review-new">Add a Review</a>
+  <a routerLink="/review-new">Add a Room</a>
 </div>
 <div>
   <ul class="list" style="margin-top: 20px;">
     <li *ngFor="let item of list"
       [class.selected]="item === selectedItem"
       (click)="onSelect(item)">
-      <span class="badge">{{item.id}}</span> {{item.comment}}
+      <a routerLink="/room/{{item.code}}">
+        <span class="badge">{{item.code}}</span> {{item.name}}
+      </a>
     </li>
   </ul>
 </div>
